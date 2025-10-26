@@ -1,0 +1,22 @@
+(Pyhton3) Make a very advanced and good bot that has a "/health" check system for my render.com so it runs indefinitely, make up like 20 normal administrative commands and 3 administrative commands which I will say in detail under.
+
+
+3 UNIQUE COMMANDS:
+
+/echo (optional discord features: "message format: embed, plain or code" "reply to message_id" "attachment:") (By the way, make sure it doesn’t expose the person using the /echo)
+/masslock (achoose more than 2 channels to lockdown at once, limit is 10 | optional: timer)
+/massmute (choose more than 2 members to mute, limit is 5 | optional: timer & reason)
+
+FEATURES:
+SUBSPACE REPORT SYSTEM:
+Whenever you react to a message with this emoji Id: (“1432054365862105099”), the bot sends an very decorative, light purple embed to channel id: (“1407034866226430063”), the emoji at the very top left of the embed will be (“1432059800258347049”), the embed basically shows long details, some of them will be (who got reported) (who reported them) (what time they did the report in UTC time) and then the others will be just unnecessary details, and there will be 3 embedded options under the embed , options are: 
+“Resolve Case” - Automatically resolve the case, no punishments will be made, DM the person who reported that message saying about the case is resolved. (It contains a emoji before the message which is [“<a:ModeratorReport:1432059883716346089>]
+“Persecute Case” - Give the person who was reported a punishment, and also DM the person who was reported and the person who reported them (when you click this embed, it asks you for type of punishment & reason why, must be required) (punishment are: 5m, 10m, 1h, 10h, 24h, 48h mute) (It contains a emoji before the message which is [“<a:ModeratorReport:1432059883716346089>]
+“Send a public message” - Makes the bot automatically send a message to the public addressing the situation. (It contains a emoji before the message which is [“<a:ModeratorReport:1432059883716346089>]
+
+REACTION SYSTEM:
+
+It reacts to every message with “<:upvote:1432070542831255724>” and “<:downvote:1432070594551353364>”
+⬇️
+When it detects a message that gained 5 “<:upvote:1432070542831255724>” reactions, it automatically reacts with “<a:star:1432070448245641346>”, this must work 
+(the allowed channel ids for this system: 1338311408156278844, 1397275881008791723, 1397276528873701448 and 1407895335711408209)
